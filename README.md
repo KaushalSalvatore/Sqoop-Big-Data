@@ -32,9 +32,11 @@
 ##### Import vs Export
 
 ```bash 
-Feature	Import	Export
-Source	RDBMS	HDFS, Hive, HBase
-Destination	Hadoop Ecosystem	RDBMS
-Use Cases	Load data into Hadoop	Send processed data back to database
-Command	sqoop import	sqoop export
+
+|   Feature     |        Import         |     Export                           |
+| 	:-----:	    | 	:-----:	            | 	:-----:	                           | 
+| Source        | RDBMS                 | HDFS, Hive, HBase                    |
+| Destination   | Hadoop Ecosystem      | RDBMS                                |
+| Use           | Load data into Hadoop | Send processed data back to database |
+| Command       | sqoop import          | sqoop export                         |
 ```
