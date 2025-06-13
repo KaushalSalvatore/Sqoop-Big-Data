@@ -40,3 +40,15 @@
 | Use           | Load data into Hadoop | Send processed data back to database |
 | Command       | sqoop import          | sqoop export                         |
 ```
+
+##### Important Sqoop Options
+
+- **--connect**  : 	JDBC connection string
+- **--username,--password**  : Database credentials
+- **--table**  : Table name to import
+- **--target-dir**  : HDFS directory to store data
+- **--split-by**  : Column used for parallel split
+- **--incremental**  : Type of incremental import: append or lastmodified
+- **--check-column**  : Column used for checking new data
+- **--last-value**  : Last imported value
+- **--fields-terminated-by**  : Custom delimiter for output files
