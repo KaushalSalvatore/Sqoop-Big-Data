@@ -83,7 +83,7 @@ $ sqoop import --connect --table --username --password --hbase-table
 
 - **Sqoop-Import-all-Tables**
 
-<pre>
+
 ```markdown
 The import-all-tables imports all tables in a RDBMS database to HDFS. Data from each table is stored in a separate directory in HDFS. Following conditions must be met in order to use sqoop-import-all-tables:
 
