@@ -102,7 +102,7 @@ $ sqoop-import-all-tables ---connect --username --password
 ```
 - **Sqoop-Codegen**
 
-```
+```bash
 Sqoop-codegen command generates Java class files which encapsulate and interpret imported records. The Java definition of a record is initiated as part of the import process. For example, if Java source is lost, it can be recreated. New versions of a class can be created which use different delimiters between fields, and so on.
 
 $ sqoop codegen (generic args) (codegen args) 
@@ -128,3 +128,4 @@ $ sqoop list-databases --connect
 ```
 $ sqoop list-tables –connect 
 ```
+
