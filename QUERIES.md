@@ -113,8 +113,8 @@ $ sqoop codegen --connect --table
 ```
 - **Sqoop-Eval**
 
-```
-Sqoop-eval command allows users to quickly run simple SQL queries against a database and the results are printed on to the console. 
+```python
+Sqoop-eval command allows users to quickly run simple SQL queries against a database and the results are printed on to the  console. 
 $ sqoop eval --connect --query "SQL query"
 ```
 
